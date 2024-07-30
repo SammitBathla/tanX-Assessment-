@@ -1,4 +1,5 @@
-# **TanX.fi Infrastructure Engineer Task By Sammit Bathla 21BBS0142**
+# Task - Infrastructure Engineer - tanX.fi 
+# By Sammit Bathla 21BBS0142
 
 ## Project Structure
 
