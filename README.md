@@ -1,12 +1,5 @@
-# Orders Data Analysis
+TanX.fi Infrastructure Engineer Task By Sammit Bathla 21BBS0142
 
-## Here Instructions are given
-
-Project Name
-
-## Project Overview
-
-This project demonstrates the implementation of a data analysis and visualization tool using Python, SQL, and Docker. The application includes functionalities for data cleaning, analysis, and visualization. The project utilizes Docker for containerization to ensure a consistent development and production environment.
 
 Project Structure
 
@@ -16,8 +9,6 @@ Project Structure
 ├── orders.csv         # Sample data file used by the application
 ├── test_main.py       # Unit test script
 └── README.md          # Project documentation
-
-
 
 
 ### File Descriptions
@@ -64,7 +55,7 @@ Follow these steps to set up and run the project using Docker:
 3. **Run the Application**
 
     ```sh
-    docker-compose up
+    docker-compose up app
     ```
 
     This command will start the application and make it available on your local machine.
@@ -78,16 +69,9 @@ Follow these steps to set up and run the project using Docker:
 To run tests, use the following command:
 
     ```sh
-    docker-compose run test
+    docker-compose up test
     ```
 
 This command will execute the unit tests defined in the `test_main.py` script.
 
-## Contributing
-
-Feel free to open issues or submit pull requests if you have any suggestions or improvements.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
