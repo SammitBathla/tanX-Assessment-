@@ -9,12 +9,13 @@ Project Name
 This project demonstrates the implementation of a data analysis and visualization tool using Python, SQL, and Docker. The application includes functionalities for data cleaning, analysis, and visualization. The project utilizes Docker for containerization to ensure a consistent development and production environment.
 
 Project Structure
-├── Dockerfile # Docker configuration file to build the image
+
+├── Dockerfile         # Docker configuration file to build the image
 ├── docker-compose.yml # Docker Compose file to manage multi-container Docker applications
-├── main.py # Main application script
-├── orders.csv # Sample data file used by the application
-├── test_main.py # Unit test script
-└── README.md # Project documentation
+├── main.py            # Main application script
+├── orders.csv         # Sample data file used by the application
+├── test_main.py       # Unit test script
+└── README.md          # Project documentation
 
 
 
