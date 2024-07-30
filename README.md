@@ -2,31 +2,20 @@
 
 ## Here Instructions are given
 
-### Run the application
-To run the main application, use the following command:
-```sh
-docker-compose up app
-
-
-### Run the Test
-To run the Test on Main application, use the following command:
-```sh
-docker-compose up test
-
-
-# Project Name
+Project Name
 
 ## Project Overview
 
 This project demonstrates the implementation of a data analysis and visualization tool using Python, SQL, and Docker. The application includes functionalities for data cleaning, analysis, and visualization. The project utilizes Docker for containerization to ensure a consistent development and production environment.
 
-## Project Structure
+Project Structure
 ├── Dockerfile # Docker configuration file to build the image
 ├── docker-compose.yml # Docker Compose file to manage multi-container Docker applications
 ├── main.py # Main application script
 ├── orders.csv # Sample data file used by the application
 ├── test_main.py # Unit test script
 └── README.md # Project documentation
+
 
 
 
@@ -60,24 +49,44 @@ Follow these steps to set up and run the project using Docker:
 
 1. **Clone the Repository**
 
-   ```sh
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+    ```sh
+    git clone https://github.com/your-username/your-repo.git
+    cd your-repo
+    ```
 
-2. Build the Docker Images
+2. **Build the Docker Images**
 
-  docker-compose build
+    ```sh
+    docker-compose build
+    ```
 
-3. Run the Application
+3. **Run the Application**
 
-   docker-compose up
+    ```sh
+    docker-compose up
+    ```
 
-4. Access the Application
+    This command will start the application and make it available on your local machine.
 
-   The application should now be running, and you can access it via your web browser at http://localhost:8000 (adjust the port if necessary based on your docker-compose.yml configuration).
+4. **Access the Application**
 
-Running Tests
+    The application should now be running, and you can access it via your web browser at `http://localhost:8000` (adjust the port if necessary based on your `docker-compose.yml` configuration).
+
+### Running Tests
+
 To run tests, use the following command:
 
-docker-compose run test
+    ```sh
+    docker-compose run test
+    ```
+
+This command will execute the unit tests defined in the `test_main.py` script.
+
+## Contributing
+
+Feel free to open issues or submit pull requests if you have any suggestions or improvements.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
