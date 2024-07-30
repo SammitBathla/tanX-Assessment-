@@ -51,7 +51,7 @@ Follow these steps to set up and run the project using Docker:
 1. **Clone the Repository**
 
     ```sh
-    git clone https://github.com/your-username/your-repo.git
+    https://github.com/SammitBathla/tanX-Assessment-.git
     cd your-repo
     ```
 
